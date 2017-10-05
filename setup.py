@@ -84,14 +84,8 @@ setup(name = "sos-all",
         'sos',
         'sos-notebook',
         'sos-pbs',
-        'sos-rq',
-        'sos-bash'
-        'sos-javascript',
-        'sos-julia',
+        'sos-bash',
         'sos-python',
         'sos-r',
-        'sos-sas',
-        'sos-matlab',
-        'sos-bioinfo',
       ]
 )

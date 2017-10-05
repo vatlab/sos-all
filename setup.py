@@ -22,7 +22,7 @@
 
 from setuptools import setup
 
-__version__ = '0.9.9.1'
+__version__ = '0.9.9.2'
 
 description = '''\
 Computationally intensive disciplines such as computational biology often 
@@ -58,8 +58,7 @@ Please refer to http://vatlab.github.io/SOS/ for more details on SoS.
 
 setup(name = "sos-essentials",
     version = __version__,
-    description = '''Script of Scripts (SoS): an interactive, cross-platform,
-        and cross-language workflow system for reproducible data analysis''',
+    description = 'Essential components of Script of Scripts (SoS)',
     long_description=description,
     author = 'Bo Peng',
     url = 'https://github.com/vatlab/SOS',

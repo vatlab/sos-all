@@ -56,7 +56,7 @@ Please refer to http://vatlab.github.io/SOS/ for more details on SoS.
 # components of SoS with a single command.
 #
 
-setup(name = "sos-all",
+setup(name = "sos-essentials",
     version = __version__,
     description = '''Script of Scripts (SoS): an interactive, cross-platform,
         and cross-language workflow system for reproducible data analysis''',

@@ -22,7 +22,7 @@
 
 from setuptools import setup
 
-__version__ = '0.9.9.2'
+__version__ = '0.9.9.4'
 
 description = '''\
 Computationally intensive disciplines such as computational biology often 
@@ -80,11 +80,11 @@ setup(name = "sos-essentials",
         'Programming Language :: Python :: Implementation :: CPython',
         ],
     install_requires=[
-        'sos',
-        'sos-notebook',
-        'sos-pbs',
-        'sos-bash',
-        'sos-python',
-        'sos-r',
+        'sos>=0.9.11.2',
+        'sos-notebook>=0.9.11.3',
+        'sos-pbs>=0.9.10.4',
+        'sos-bash>=0.9.10.1',
+        'sos-python>=0.9.10.1',
+        'sos-r>=0.9.10.3',
       ]
 )
